@@ -14,5 +14,7 @@ public class Example1 {
             System.out.println("Число делится");
         else
             System.out.println("Число не делится");
+
     }
+
 }

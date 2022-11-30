@@ -17,4 +17,5 @@ public class Example4 {
             System.out.println("Число не в диапозоне");
 
     }
+
 }

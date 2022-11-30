@@ -17,4 +17,5 @@ public class Example3 {
             System.out.println("Число не делится или число меньше 10");
 
     }
+
 }
