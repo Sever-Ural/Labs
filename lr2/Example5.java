@@ -9,12 +9,13 @@ public class Example5 {
         Scanner in = new Scanner(System.in);
 
         System.out.println("Введите число: ");
-        long a = in.nextInt();
+        int a = in.nextInt();
 
-        a /= 1000;
+        int c =  a /1000;
 
-        System.out.println( a + " тысячи");
-
+        if(c >= 10)
+            c %= 10;
+        System.out.println( c + " тысячи");
+        in.close();
     }
-
 }
