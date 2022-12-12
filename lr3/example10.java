@@ -8,7 +8,7 @@ public class example10 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         Random random = new Random();
-        Integer a[] = new Integer[10], b = 100, c = 0;
+        Integer a[] = new Integer[10];
         for (int i = 0; i < a.length; ++i) {
             a[i] = 1 + Math.abs(random.nextInt()) % (1 - 100 + 1);
         }
