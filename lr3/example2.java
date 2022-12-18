@@ -6,7 +6,8 @@ public class example2 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         String a = in.nextLine();
-/*        switch (a){
+        //Метод switch
+        switch (a){
         case "Понедельник":
         System.out.println("1");
         break;
@@ -28,7 +29,8 @@ public class example2 {
         case "Воскресенье":
         System.out.println("7");
         break;
-        }*/
+        }
+        //метод if
         if (a.equals("Понедельник"))
             System.out.println("1");
         if (a.equals("Вторник"))

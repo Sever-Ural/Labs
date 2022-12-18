@@ -8,7 +8,7 @@ public class example1 {
                a[j][i] = '#';
             }
         }
-        for (int i = 1 ; i < 11; i++){
+        for (int i = 0 ; i < 11; i++){
             for (int j = 0; j < 23; j++){
                 System.out.print(a[j][i]);
             }
